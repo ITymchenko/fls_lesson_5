@@ -224,7 +224,6 @@ div.small-block span + span {
     margin: 0 0 50px 0;
 }
 
-
 .added span {
     display: block;
     color: #ff0000;
@@ -243,6 +242,7 @@ div.small-block span + span {
     padding: 15px;
     background-color: #6781dc;
     margin: 0 0 50px 0;
+    overflow: auto;
 }
 
 .test-link {
