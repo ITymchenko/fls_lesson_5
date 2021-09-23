@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&display=swap&subset=cyrillic-ext');
+
+@font-face {
+    font-family: 'Balsamiq Sans', cursive;
+    src: url('../fonts/BalsamiqSans-Bold.woff2') format('woff2'),
+        url('../fonts/BalsamiqSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amatic SC', cursive;
+    src: url('../fonts/AmaticSC-Bold.woff2') format('woff2'),
+        url('../fonts/BalsamiqSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ---------Обнуление-------------- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/*------- Контент---------------*/
+
+.header {
+    padding: 20px 0 20px 0;
+    margin: 0 0 50px 0;
+    background-color: #05e6ff;
+    text-align: center;
+    font-size: 0; 
+}
+
+.title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 32px;
+    line-height: 25px;
+    color: #f70101;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.img-block {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.img-block2 {
+    display: block;
+    width: 200px;
+    margin: 0 0 0 auto;
+}
+
+
+.header h1 {
+    display: inline-block;
+    padding: 20px;
+    width: 400px;
+    background-color: #d3f300;
+    margin: 0 30px 0 0;
+}
+
+.subtitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    line-height: 21px;
+    color: #3a3df9;
+    text-align: right;
+    text-shadow: 1px 1px 4px #000;
+    letter-spacing: 5px;
+    margin: 0 0 30px 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.header a {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: 1px 4px 2px #000;
+    padding: 20px;
+    width: 400px;
+    background-color: #00f37e;
+    vertical-align: top;
+}
+
+
+.main {
+    padding: 0 50px 0 50px;
+    margin: 0 0 100px 0;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.small-block > .text {
+    background-color: #d3f300;
+    padding: 15px 20px 15px 20px;
+    font-size: 14px;
+    margin: 0 0 50px 0;
+}
+
+.paragraph-span {
+    display: block;
+    font-weight: 700;
+    text-shadow: 1px 2px 8px #000000, 1px 2px 8px #ff0000;
+    padding: 20px 15px 15px 20px;
+}
+
+.paragraph-span__two {
+    background-color: #7247ce;
+    line-height: 30px;
+}
+
+.small-block {
+    padding: 0 200px 0 200px;
+    margin: 0 0 50px 0;
+}
+
+.line-text {
+    display: block;
+    background-color: #f93ad0;
+    margin: -80px 0 0 0; 
+}
+
+div.small-block span + span {
+    margin: 10px 0 0 0;
+}
+
+.links {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: line-through;
+    padding: 0 10px 0 0;
+    margin: 0 10px 50px 0;
+    background-color: #d3f300;
+}
+
+.block-gallery {
+    margin: 0 50px 0 0;
+
+}
+
+.gallery__img1 {
+    width: 400px;
+    padding: 70px;
+}
+
+.gallery__img2 {
+    padding:  0 0 50px 0;
+}
+
+.gallery__img3 {
+    min-width: 500px;
+    padding: 100px;
+}
+
+.footer a {
+    display: inline-block;
+    padding: 0 100px 100px 100px;
+    width: 100px;    
+    background-color: #04f1c6;
+}
+
+/* --------ДОПОЛНИТЕЛЬНОЕ ЗАДАНИЕ-------------------------------------------------------------------------------- */
+
+.added h1 {
+    margin: 0 0 50px 0;
+}
+
+.added span {
+    display: block;
+    color: #ff0000;
+}
+
+.div-line {
+    padding: 50px 0 0 0;
+    font-size: 0;
+}
+
+.div-line div {
+    display: inline-block;
+    font-size: 16px;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 15px;
+    background-color: #6781dc;
+    margin: 0 0 50px 0;
+    overflow: auto;
+}
+
+.test-link {
+    display: inline-block;
+    margin: 0 0 30px 0;
+    background-color: #d3f300;
+}
+
+.text-added {
+    display: inline-block;
+    max-width: 100px;
+    margin: 0 30px 50px 0;
+    padding: 10px 10px 10px 10px;
+    background-color: #00f37e;
+}
+
+.div-margin__one, 
+.div-margin__two {
+    padding: 10px;
+}
+
+.div-margin__one {
+    background-color: #6781dc;
+}
+
+.div-margin__two {
+    background-color: #f93ad0;
+    margin: -50px 0 50px 0;
+}
+
+span.added-span {
+    display: block;
+    color: #000;
+    max-height: 200px;
+    overflow: auto;
+    background-color: #12e478;
+}
+
+
